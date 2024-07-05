@@ -1,6 +1,6 @@
-python test.py \
---content_path datasets/contents \
---style_path datasets/styles \
+python /kaggle/working/adaattn/test.py \
+--content_path datasets/content \
+--style_path datasets/style \
 --name AdaAttN \
 --model adaattn \
 --dataset_mode unaligned \
